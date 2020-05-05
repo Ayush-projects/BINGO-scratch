@@ -1,0 +1,72 @@
+
+.b {
+    width: 60px;
+    height: 40px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    border: 2px solid rgb(2, 46, 20);
+    border-radius: 6px;
+}
+#bdy{
+    background-image: url('bkgr.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+}
+
+html{
+    height: 100%;
+}
+#allbtn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+}
+#dis{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    display: block;
+}
+#hd{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    font-weight: bolder;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+#rstart{
+    color: rgb(2, 46, 20);
+    border: 2px solid rgb(16, 0, 24); 
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    text-decoration: none;
+    
+}
+#ftr{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace; position: absolute;
+    top: 90%;
+    left: 88%;
+    transform: translateX(-50%)translateY(-50%);
+    display: block;
+    
+}
